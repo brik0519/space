@@ -1,0 +1,15 @@
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 229-294-497
+INFO:werkzeug:121.164.142.169 - - [14/Feb/2021 08:38:12] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:121.164.142.169 - - [14/Feb/2021 08:38:14] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:121.164.142.169 - - [14/Feb/2021 08:38:15] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:121.164.142.169 - - [14/Feb/2021 08:48:58] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:121.164.142.169 - - [14/Feb/2021 08:49:01] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:121.164.142.169 - - [14/Feb/2021 08:49:02] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:121.164.142.169 - - [14/Feb/2021 08:50:52] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:104.140.188.42 - - [14/Feb/2021 09:10:03] "[37mGET / HTTP/1.0[0m" 200 -
+INFO:werkzeug:205.185.115.133 - - [14/Feb/2021 09:21:47] "[33mGET /manager/html HTTP/1.1[0m" 404 -
+INFO:werkzeug:121.164.142.169 - - [14/Feb/2021 09:37:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:121.164.142.169 - - [14/Feb/2021 09:37:52] "[37mGET / HTTP/1.1[0m" 200 -
