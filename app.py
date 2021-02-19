@@ -12,9 +12,6 @@ app = Flask(__name__)
 @app.route('/')
 def jsLab01():
     return render_template("/jsLab01.html")
-
-@app.route('')
-def 
         
 
 if __name__ == "__main__":
