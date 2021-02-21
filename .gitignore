@@ -1,5 +1,6 @@
 # Path
 ## Python
+__pycache__/
 .venv/
 
 ## static
