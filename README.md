@@ -3,7 +3,7 @@
 ## v0.2
 - [x] Gunicorn
 - [x] Nginx
-- [ ] service 파일 작성
+- [x] service 파일 작성
 - [ ] Certbot
 - [ ] HTTPS
 
