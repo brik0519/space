@@ -12,3 +12,9 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return render_template("/index.html")
+
+
+# Notion Widgets
+@app.route('/pointer/')
+def pointer():
+    return render_template("/widget/pointer.html")

@@ -1,13 +1,18 @@
 # Space
 
 ## v0.2
-- [x] Gunicorn
-- [x] Nginx
-- [x] service 파일 작성
-- [ ] Certbot
-- [ ] HTTPS
+### Notion Widget
+- mdforest
+    - [x] pointer
+    - [ ] pointer with DB
+    - [ ] postbox
+    - [ ] farm
+
+
+- Flask + Gunicorn + Nginx
+- HTTPS 적용
 
 ## v0.1
 - Flask
 - css js 분리
-- 웹 스토리지가 놀랍게도 작동
+- 웹 스토리지 관련 스크립트
