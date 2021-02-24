@@ -1,95 +1,33 @@
 <html>
-    <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>pointer</title>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:900">
-        <title>Pointer</title>
-        <style>
-
-        body{
-            background-color: rgb(255, 255, 255);
-        }
-        
-        #timer {
-        color: #202020;
-        text-align: center;
-        text-transform: uppercase;
-        font-family: 'Lato', sans-serif;
-        font-size: .7em;
-        letter-spacing: 5px;
-        }
-
-        .days {
-        display: inline-block;
-        padding: 18px;
-        width: 180px;
-        border-radius: 5px;
-        }
-
-        .days {
-        background: #bae49e;
-        }
-
-        .numbers {
-        font-family: 'Montserrat', sans-serif;
-        color:  #183059;
-        font-size: 4em;
-        text-align: center;
-        }
-
-        .white {
-        position: absolute;
-        background:  #eeeeee;
-        height: 85px;
-        width: 75px;
-        left: 30%;
-        top: 2%;
-        }
-
-        .red {
-        position: absolute;
-        background:  #EF2F3C;
-        left: 18%;
-        top: 9%;
-        height: 65px;
-        width: 70px;
-        
-        }
-
-        .blue {
-        position: absolute;
-        background:  #276FBF;
-        height: 80px;
-        width: 80px;
-        left: 60%;
-        top: 5%;
-
-
-        }
-
-
-        </style>
+        <link rel="stylesheet" href="/static/css/style.css">
     </head>
 
-
     <body>
-        
-        <div id="timer">
-
-            <div class="days"> 
-                <div id="days" class="numbers "> 
-                </div>포인트를 모았어요!</div> 
+        <div>
+            <div id="timer">
+                <div class="days">
+                    <div id="days" class="numbers"></div>
+                    <div>포인트를 모았어요!</div>
+                </div>
             </div>
 
+            <!-- <div>
+                다음 컨텐츠
+            </div> -->
         </div>
-
     </body>
-        <script>
+
+
+    <script>
         let timer = setInterval(function() {
-        let days = 65700;
+        let days = 66700;
 
         document.getElementById("days").innerHTML=days
         }, 1);
-        </script>
+    </script>
+
+
 </html>
