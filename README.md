@@ -1,13 +1,10 @@
 # Space
 
 ## v0.2
-### Notion Widget
-- mdforest
+- mdforest subpage
     - [x] pointer
-    - [ ] pointer with DB
-    - [ ] postbox
+    - [x] postbox
     - [ ] farm
-
 
 - Flask + Gunicorn + Nginx
 - HTTPS 적용

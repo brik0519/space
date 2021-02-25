@@ -18,3 +18,7 @@ def index():
 @app.route('/pointer/')
 def pointer():
     return render_template("/widget/pointer.html")
+
+@app.route('/postbox/')
+def postbox():
+    return render_template("/postbox.html")
