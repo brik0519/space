@@ -4,7 +4,6 @@
 ### Notion Widget
 - mdforest
     - [x] pointer
-    - [x] pointer css 분리
     - [ ] pointer with DB
     - [ ] postbox
     - [ ] farm

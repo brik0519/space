@@ -1,26 +1,12 @@
-body{
-  background-color: rgb(255, 255, 255);
-}
-
-#timer {
-color: #202020;
-text-align: center;
-font-family: 'Lato', sans-serif;
-font-size: .7em;
-letter-spacing: 5px;
-}
-
-.days {
-display: inline-block;
-padding: 18px;
-width: 180px;
-border-radius: 5px;
-background: #bae49e;
-}
-
-.numbers {
-font-family: 'Montserrat', sans-serif;
-color:  #183059;
-font-size: 4em;
-text-align: center;
-}
+@import url(//fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap);
+body {
+    font-family: "Noto Sans KR", sans-serif !important;
+  }
+  
+  h1 {
+    font-size: 60px;
+  }
+  
+  p {
+    font-size: 20px;
+  }
