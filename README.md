@@ -6,6 +6,7 @@
     - [x] postbox
     - [ ] farm
 
+- requirements.txt
 - Flask + Gunicorn + Nginx
 - HTTPS 적용
 
