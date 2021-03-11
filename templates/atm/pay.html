@@ -5,11 +5,7 @@
 
     <body>
         <script>
-            let today = new Date();
-            let date = today.getDate();
-
-            var add = date - 10;
-            var point = 94700 + 2700 * add;
+            var point = 100100;
             var after = point - 100000;
             
             point = 100000 - point;
@@ -20,7 +16,7 @@
             }
             
             else {
-                alert("신청이 완료되었습니다.\n" + "우편함을 확인해주세요!\n" + "남은 포인트: " + after);
+                alert("신청이 완료되었습니다.\n" + "잠시 후 우편함을 확인해주세요!\n" + "남은 포인트: " + after);
                 window.location.href='http://mdforest.oopy.io';
             }
             

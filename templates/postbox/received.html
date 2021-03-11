@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            너굴택배
+        </title>
+    </head>
+
+    <body>
+        <script>
+            let today = new Date();   
+            let date = today.getDate();
+            let hours = today.getHours();
+
+            if (date == 12 && hours >= 14) {
+                alert("저녁식사 전까지 우편물이 선생님께로 전달됩니다\n좋은하루 되세구리!");
+                window.location.href='http://mdforest.oopy.io';
+            }
+
+            else {
+                alert("아직 물건이 도착하지 않았습니다\n\"수령\" 단계가 되면 버튼을 눌러주세요!");
+                window.location.href='http://mdforest.oopy.io';
+            }
+        </script>
+    </body>
+
+
+</html>
