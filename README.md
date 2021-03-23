@@ -2,11 +2,17 @@
 
 ## v0.2
 - mdforest subpage
-    - [x] pointer
-    - [x] postbox
-    - [x] atm
-    - [ ] farm
+    - pointer
+    - postbox
+    - atm
+    - farm
+    - fin
 
+- kingdom subpage
+    - kpointer
+    - invitation
+
+- fonts
 - requirements.txt
 - Flask + Gunicorn + Nginx
 - HTTPS 적용

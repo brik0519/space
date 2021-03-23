@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:900">
+    <title>Document</title>
+    <style>
+        @font-face{
+                font-family: "kingdom";
+                src: url("/static/fonts/kingdom/CookieRun\ Regular.otf");
+                }
+
+        body{
+            background-color: white;
+        }
+        
+        #timer {
+        color: #eeeeee;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Lato', sans-serif;
+        font-size: .4em;
+        letter-spacing: 2px;
+        }
+
+        .days, .hours, .minutes, .seconds {
+        display: inline-block;
+        padding: 20px;
+        width: 100px;
+        border-radius: 5px;
+        }
+
+        .days {
+        background: #b2e5e5;
+        }
+
+        .hours {
+        background: #fcb299;
+        color: #183059;
+        }
+
+        .minutes {
+        background: #bea1d4;
+        }
+
+        .seconds {
+        background: #F0A202;
+        }
+
+        .point {
+        font-family: 'Montserrat', sans-serif;
+        color:  #164f5f;
+        font-size: 4em;
+        text-align: center;
+        }
+
+        .numbers {
+        font-family: 'Montserrat', sans-serif;
+        color:  #164f5f;
+        font-size: 4em;
+        text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+<div id="timer">
+
+    <div class="days"> 
+        <div style='color : #164f5f; font-family: kingdom; font-size: 1.6em;'>쿠키의 공격력</div>
+        <div id="days" class="point" style='color : #164f5f;'> </div>
+    </div> 
+    
+    <div class="hours"> 
+        <div style='color : #164f5f; font-family: kingdom; font-size: 1.6em;'>적의 체력</div>
+        <div id="hours" class="point" style='color : #164f5f;'> </div>
+    </div> 
+
+</div>
+
+</body>
+    <script>
+
+    // countdown
+    let timer = setInterval(function() {
+
+    // math
+    let days = 1500
+    let hours = 20000
+
+    // display
+    document.getElementById("days").innerHTML=days
+    document.getElementById("hours").innerHTML=hours
+
+    }, 1);
+    </script>
+</html>

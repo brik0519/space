@@ -28,20 +28,34 @@ def received():
 
 
 ## atm
-@app.route('/atm/')
-def atm():
-    return render_template("/atm/atm.html")
+# @app.route('/atm/')
+# def atm():
+#     return render_template("/atm/atm.html")
 
-@app.route('/pay/')
-def pay():
-    return render_template("/atm/pay.html")
+# @app.route('/pay/')
+# def pay():
+#     return render_template("/atm/pay.html")
 
 
 ## message
-@app.route('/message/')
-def message():
-    return render_template("/message.html")
+# @app.route('/message/')
+# def message():
+#     return render_template("/message.html")
 
-@app.route('/time/')
-def time():
-    return render_template("/time.html")
+# @app.route('/time/')
+# def time():
+#     return render_template("/time.html")
+
+# kingdom
+## invitation
+@app.route('/invitation/')
+def invitation():
+    return render_template("/invitation/invitation.html")
+
+@app.route('/kpointer/')
+def kpointer():
+    return render_template("/kingdom/pointer.html")
+
+# @app.route('/fail/')
+# def fail():
+#     return render_template("/invitation/fail.html")
